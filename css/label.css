@@ -1,0 +1,117 @@
+/*General Label Style*/
+ul.labels{
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-weight: 100;
+  line-height: 13px;
+}
+ul.labels li{
+  display: inline;
+  color: #CCCCCC;
+  float: left;
+  margin: 0px 2px 2px 0px;
+  height: 13px;
+}
+
+ul.labels li span{
+  background: url(label_front.gif) no-repeat center left;
+  font-size: 11px;
+  font-weight: normal;
+  white-space: nowrap;
+  padding: 0px 15px;
+  color: white;
+  vertical-align: top;
+  float: left;
+  line-height: 13px;
+}
+
+ul.labels li a{
+  padding: 1px 4px 0px 11px;
+  padding-top  /*\**/: 0px\9; /*Hack for IE*/
+  background: url(labelx.gif) no-repeat center right;
+  cursor: pointer;
+  border-left: 1px dotted white;
+  outline: none;
+}
+ul.labels li a:hover{
+  background: url(labelx_hover.gif) no-repeat center right;
+}
+
+/*Colored Label Attributes*/
+ul.labels li.lady{
+  background-color: #F1A9E7;
+}
+ul.labels li.lightblue{
+  background-color: #99CCFF;
+}
+ul.labels li.buffet{
+  background-color: #A9BCF5;
+}
+ul.labels li.herbal{
+  background-color: #D8F781;
+}
+ul.labels li.vegeterian{
+  background-color: #A9F5A9;
+}
+ul.labels li.grilled{
+  background-color: #C5AD98;
+}
+ul.labels li.violet{
+  background-color: #CEA6CE;
+}
+ul.labels li.seafood {
+  background-color: #8FCDB6;
+}
+ul.labels li.quickmeal{
+  background-color: #EE998A ;
+}
+ul.labels li.forkid{
+  background-color: #F7BE81 ;
+}
+ul.labels li.lime{
+  background-color: #B6FF00 ;
+}
+ul.labels li.darkblue{
+  background-color: #21007F ;
+}
+ul.labels li.leaf{
+  background-color: #00CC00 ;
+}
+ul.labels li.yellow{
+  background-color: #FFFF00 ;
+}
+ul.labels li.hotpot{
+  background-color: #F78181 ;
+}
+ul.labels li.frost{
+  background-color: #80C8FE ;
+}
+ul.labels li.purple{
+  background-color: #8E006B ;
+}
+ul.labels li.meatlover{
+  background-color: #BDBDBD ;
+}
+ul.labels li.singlebed{
+  background-color: #A9BCF5;
+}
+ul.labels li.doublebed{
+  background-color: #F78181 ;
+}
+ul.labels li.twinbed{
+  background-color: #8FCDB6;
+}
+ul.labels li.kitchen{
+  background-color: #BDBDBD ;
+}
+ul.labels li.man{
+  background-color: #81BEF7 ;
+}
+ul.labels li.pet{
+  background-color: #F7BE81 ;
+}
+ul.labels li.family{
+  background-color: #FA8258 ;
+}
+
+
+

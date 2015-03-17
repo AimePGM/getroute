@@ -1,0 +1,45 @@
+.search-recomended{
+  background: #888888;
+  height: 600px;
+}
+
+.container-search-img{
+  height: 180px;
+  width: 240px;
+  background: #888888;
+  text-align: center;
+  color: white;
+}
+
+.thumb-container{
+  margin-left: 0px;
+}
+
+
+.search-thumbnail{
+  width: 260px;
+  height: 300px;
+  background: white;
+  box-shadow: 0 0 6px 1px #B9B9B9;
+  border-radius: 5px; 
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+a.mouseover-thumbnail-holder {
+  position:relative;
+  display:block;
+  float:left;
+  margin-right:10px;
+}
+
+
+a.mouseover-thumbnail-holder:hover .large-thumbnail-style {
+  top:0;
+  left:105%;
+  z-index:1;
+  opacity:1;
+}
